@@ -1,0 +1,24 @@
+@model List<StoreApp.Models.Product>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Product</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    @foreach(StoreApp.Models.Product prd in Model)
+    {
+        <div>
+            <h3>@prd.ProductName</h3>
+            <p>@prd.Price</p>
+            <p> 
+                <a href= "/Product/Get/@prd.ProductId"> Go to the Github</a>
+            </p>
+        </div>
+    } 
+</body>
+</html>

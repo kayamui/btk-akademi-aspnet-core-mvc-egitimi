@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mkaya\\Documents\\GitHub\\btk-akademi-aspnet-core-mvc-egitimi\\Store\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{675F517D-82F3-4BA9-8444-16E835D9CE8B}|StoreApp\\StoreApp.csproj|c:\\users\\mkaya\\documents\\github\\btk-akademi-aspnet-core-mvc-egitimi\\store\\storeapp\\storeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{675F517D-82F3-4BA9-8444-16E835D9CE8B}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\storeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreApp",
+              "DocumentMoniker": "C:\\Users\\mkaya\\Documents\\GitHub\\btk-akademi-aspnet-core-mvc-egitimi\\Store\\StoreApp\\StoreApp.csproj",
+              "RelativeDocumentMoniker": "StoreApp\\StoreApp.csproj",
+              "ToolTip": "C:\\Users\\mkaya\\Documents\\GitHub\\btk-akademi-aspnet-core-mvc-egitimi\\Store\\StoreApp\\StoreApp.csproj",
+              "RelativeToolTip": "StoreApp\\StoreApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-19T15:55:39.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

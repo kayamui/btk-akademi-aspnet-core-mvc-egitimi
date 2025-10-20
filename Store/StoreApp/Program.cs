@@ -1,6 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using StoreApp.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<RepositoryContext>(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
+    options.UseSqlServer(connectionString);
+});
 
 var app = builder.Build();
 
